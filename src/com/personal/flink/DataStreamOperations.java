@@ -1,4 +1,4 @@
-package ee.ut.cs.dsg;
+package com.personal.flink;
 
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
@@ -9,7 +9,7 @@ import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
-public class FlinkStreamSQLExamples {
+public class DataStreamOperations {
 
     public static void main(String[] args) throws Exception
     {
